@@ -1,0 +1,12 @@
+//
+// Created by rudri on 10/11/2020.
+//
+
+#ifndef PROG3_UNIT5_CONCURRENCY_PROGRAMMING_V2023_1_P2_H
+#define PROG3_UNIT5_CONCURRENCY_PROGRAMMING_V2023_1_P2_H
+
+#include "factorial.h"
+
+void question_2_1();
+
+#endif //PROG3_UNIT5_CONCURRENCY_PROGRAMMING_V2023_1_P2_H
