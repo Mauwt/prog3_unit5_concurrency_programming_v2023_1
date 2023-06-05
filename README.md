@@ -16,14 +16,14 @@ Desarrollar un template que permita generar un vector de números aleatorios en 
 ```cpp
 auto v = generate_random_vector<int, 10000>(-20, 20);
 cout << size(v) << endl;
-cout << max(v) << " " min(v) << endl;
+cout << max_element(begin(v), end(v)) << " " min_element(begin(v), end(v)) << endl;
 ```
 
 **Use Case #2:**
 ```cpp
 auto v = generate_random_vector<unsigned int, 10000>(1, 30);
 cout << size(v) << endl;
-cout << max(v) << " " min(v) << endl;
+cout << max_element(begin(v), end(v)) << " " min_element(begin(v), end(v)) << endl;
 ```
 
 ## Question #2 - factorial paralelo (6 points)
